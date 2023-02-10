@@ -111,7 +111,7 @@ Images extracted in step 4, will not be published to github due to it's size
 
 ## Installation
 
-To clone the repository: 'https://github.com/JuanitaSmith/weratedogs.git'
+To clone the repository: 'https://github.com/JuanitaSmith/WeRateDogs.git'
 
 To call tweepy API, credentials needs to be obtained from your own twitter account and stored in environment variables, example:
 
