@@ -14577,13 +14577,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><span style="color:blue; font-size:40px; line-height:40px; font-family: Calibri;">Udacity Data Analysis Nanodegree</span></p>
-<hr>
-<p><span style="color:blue; font-size:30px; line-height:40px; font-family: Calibri;">Project 3: Wrangle and Analyze Data - Data wrangling report</span></p>
-<h4 id="Created-by:-Juanita-Smith">Created by: Juanita Smith<a class="anchor-link" href="#Created-by:-Juanita-Smith">&#182;</a></h4><h4 id="Last-date:-9-February-2023">Last date: 9 February 2023<a class="anchor-link" href="#Last-date:-9-February-2023">&#182;</a></h4><hr>
-<p><img src="../images/weratedogs.png" alt="drawing" width="500"/></p>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><span style="color:blue; font-size:30px; line-height:40px; font-family: Calibri;">Project 3: Data wrangling report</span></p>
+<p><img src="../images/weratedogs.png" alt="drawing" width="500" style="float:left"/></p>
 
 </div>
 </div>
@@ -14593,8 +14589,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><span style="color:blue; font-size:26px; line-height:40px; font-family: Calibri;">Project Overview</span></p>
 
 </div>
@@ -14605,9 +14600,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The goal of the project was to demonstrate the data wrangling and analysis skills obtained from the course.</p>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The goal of the project was to demonstrate data wrangling and analysis skills obtained from the course.</p>
 <p>The dataset to be wrangled is the tweet archive of Twitter user <a href="https://twitter.com/dog_rates">@dog_rates</a>, also known as <a href="https://en.wikipedia.org/wiki/WeRateDogs">WeRateDogs</a>. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. Dog owners upload a picture of their dog, writes a funny comment and give their own dog a rating out of 10. Owners almost always give their dogs a rating greater than 10. e.g 11/10, 12/10, 13/10, it's the nature of the website. WeRateDogs has over 4 million followers and has received international media coverage. It's only a bit of fun, and brings great joy when browsing the cutest dog images !</p>
 <h3 id="Data-wrangling-consist-of-3-main-steps:">Data wrangling consist of 3 main steps:<a class="anchor-link" href="#Data-wrangling-consist-of-3-main-steps:">&#182;</a></h3><blockquote><h4 id="Gather--%3E-Assess--%3E-Clean"><strong>Gather -&gt; Assess -&gt; Clean</strong><a class="anchor-link" href="#Gather--%3E-Assess--%3E-Clean">&#182;</a></h4>
 </blockquote>
@@ -14620,8 +14614,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><span style="color:blue; font-size:26px; line-height:40px; font-family: Calibri;">Wrangling Step 1: Data gathering</span></p>
 
 </div>
@@ -14632,43 +14625,19 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Real-world data rarely comes clean, especially when it comes from the internet where users enter data into free text fields that are optional, as it's the case with this twitter account.</p>
 <p>During the data gathering step, twitter data needed to be downloaded <strong>automaticaly</strong> from the internet using a variety of sources and techniques, with the help of Python and its libraries.</p>
 <p>3 data gathering strategies was demonstrated:</p>
 <h3 id="1.-Twitter-archive---Automated-downloaded-from-an-URL">1. Twitter archive - Automated downloaded from an URL<a class="anchor-link" href="#1.-Twitter-archive---Automated-downloaded-from-an-URL">&#182;</a></h3><p>WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for a sample of 2356 tweets with ratings, for a period between Nov 2015 - July 2017.
 Data was automatically downloaded from the Udacity website using <code>pd.read_csv</code> and passing the URL as input.</p>
 <h3 id="2.-Use-twitter-API-'tweepy-v2'-to-retrieve-additional-data">2. Use twitter API 'tweepy v2' to retrieve additional data<a class="anchor-link" href="#2.-Use-twitter-API-'tweepy-v2'-to-retrieve-additional-data">&#182;</a></h3><p>For each tweet in the twitter archive from step 1, the retweet and like count was retrieved as minimum requirement for the project</p>
-<p>The latest version of the tweepy API was used to retrieve the data, which offered more flexibility and data availability, although it took some time to figure out how to use it. I initially tried to download data like geo data, country, place, additional metrics etc, as these could make interesting analytics, however this data was never filled.</p>
-<div class="highlight"><pre><span></span><span class="n">tweet_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;public_metrics&quot;</span><span class="p">,</span> <span class="s2">&quot;entities&quot;</span><span class="p">,</span> <span class="s2">&quot;text&quot;</span><span class="p">,</span> <span class="s2">&quot;attachments&quot;</span><span class="p">,</span><span class="s2">&quot;geo&quot;</span><span class="p">]</span>
-            <span class="n">expansions</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;geo.place_id&#39;</span><span class="p">,</span> <span class="s1">&#39;attachments.media_keys&#39;</span><span class="p">]</span>
-            <span class="n">media_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;url&#39;</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">]</span>
-            <span class="n">place_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;country_code&#39;</span><span class="p">,</span> <span class="s1">&#39;full_name&#39;</span><span class="p">,</span> <span class="s1">&#39;place_type&#39;</span><span class="p">]</span>
-            <span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">get_tweets</span><span class="p">(</span><span class="n">tweet_id</span><span class="p">,</span> 
-                                         <span class="n">tweet_fields</span><span class="o">=</span><span class="n">tweet_fields</span><span class="p">,</span> 
-                                         <span class="n">expansions</span><span class="o">=</span><span class="n">expansions</span><span class="p">,</span>
-                                         <span class="n">media_fields</span><span class="o">=</span><span class="n">media_fields</span><span class="p">,</span>
-                                         <span class="n">place_fields</span> <span class="o">=</span> <span class="n">place_fields</span><span class="p">)</span>
-</pre></div>
+<p>The latest version of the tweepy v2 API was used to retrieve the data, which offered more flexibility and data availability, although it took some time to figure out how to use it. I initially tried to download data like geo data, country, place, additional metrics etc, as these could make interesting analytics, however this data was never filled.</p>
 <p>Each tweet's entire JSON response was dumped to a txt file, each tweet on its own line</p>
-<p>The .txt file was read line by line, and the most useful data to be reused was added to a pandas dataframe. Some data kept are already in twitter archive from step 1, however might be useful to compliment missing or corrupt data potentially. Fields that were kept:</p>
-<ul>
-<li>id (same as tweet_id and were use for table joins)</li>
-<li>text (same text as in twitter archive)         </li>
-<li>retweet_count   </li>
-<li>reply_count     </li>
-<li>like_count      </li>
-<li>quote_count     </li>
-<li>media_url (first image of each tweet was again retrieved to compliment otherwise potential missing images in prediction file)    </li>
-<li>media_type (photo, video, etc)     </li>
-<li>short_url (same url as present in archive data text from step 1, however the url here is stored on it's own) </li>
-<li>expanded_url (same as in twitter archive)   </li>
-<li>annotation (additional data about dog, contains mostly a place, dog name or dog breed, and can be used to complement missing data)     </li>
-</ul>
-<p>Some API errors occurred which was dumped to txt log file. Some tweets are no longer availabe in the API.</p>
+<p>The .txt file was read line by line, and the most useful data was added to a pandas dataframe. Some API data were already present in twitter archive from step 1, however might be useful to compliment missing or corrupt data potentially.</p>
+<p>Some API errors occurred which was dumped to txt log file. Some tweets were no longer availabe in the API.</p>
 <h3 id="3.-Use-the-Requests-library-to-download-the-tweet-breed-predictions-(image_predictions.tsv)">3. Use the Requests library to download the tweet breed predictions (image_predictions.tsv)<a class="anchor-link" href="#3.-Use-the-Requests-library-to-download-the-tweet-breed-predictions-(image_predictions.tsv)">&#182;</a></h3><p>Udacity provided a file that used the dog images to predict the breed of the dog.
-Each tweet consist of the link to the image that gave the best predictions, 3 predictions, each with it's confidence level and if the prediction is actually a valid dog breed.</p>
+Each tweet have a URL to the image that gave the best breed predictions, 3 predictions each with it's confidence level and if the prediction is actually a valid dog breed.</p>
 <p>This file (image_predictions.tsv), is hosted on Udacity's servers and was downloaded programmatically using the Requests library and the following URL: <a href="https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv">https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv</a></p>
 <h3 id="4.-Download-dog-profile-images-(optional-extra-step)">4. Download dog profile images (optional extra step)<a class="anchor-link" href="#4.-Download-dog-profile-images-(optional-extra-step)">&#182;</a></h3><p>Image urls containing <code>.jpg</code> retrieved from API in step 2 was used to download the first dog image for each tweet from the internet, as additional practice. I had in mind for visualization to show a dog profile card of the most liked breeds and dogs.</p>
 
@@ -14680,8 +14649,7 @@ Each tweet consist of the link to the image that gave the best predictions, 3 pr
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><span style="color:blue; font-size:26px; line-height:40px; font-family: Calibri;">Wrangling Step 2: Assessing</span></p>
 
 </div>
@@ -14692,8 +14660,7 @@ Each tweet consist of the link to the image that gave the best predictions, 3 pr
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Note:</strong> 
 Data obtained are indeed very untidy. The requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues to demonstrate data wrangling skills.
 Even though I went beyond this requirement, still not all issues are assessed and cleaned to perfection.
@@ -14707,8 +14674,7 @@ The data were assessed and cleaned, upon which the analysis and visualizations w
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Assessing was done using first visual inspection, followed by programmatic inspection for each of the 3 datasets acquired in step 1.
 Visual inspection was done by manually inspecting the data after displaying a sample of 10-20 records, using <code>.sample()</code>
 Programmatic inspection was done using .<code>info(), nunqiue(), unique(), .duplicated()</code>. Deeper inspection was done where problems were spotted, using filtering and query techniques.</p>
@@ -14723,40 +14689,9 @@ Programmatic inspection was done using .<code>info(), nunqiue(), unique(), .dupl
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Summary-of-assessment">Summary of assessment<a class="anchor-link" href="#Summary-of-assessment">&#182;</a></h2><h3 id="Quality-issues">Quality issues<a class="anchor-link" href="#Quality-issues">&#182;</a></h3><p>Do we have all of the records that we should? Do we have missing records or not? Are there specific rows, columns, or cells missing?</p>
-<blockquote>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="../images/assessment.png" alt="assessment" width="600" style="float:left"/></p>
 
-#### Completeness Issues (e.g. missing data)
-
-1. twitter_archive: Replies to original tweets exist causing duplicate tweets
-
-2. twitter_archive: Retweets exist causing duplicate tweets
-
-3. twitter_archive: `name` contains string value 'None' indicating missing data
-
-4. twitter_archive: Columns `doggo, floofer, pupper, puppo` contain value 'None' indicating missing data
-
-5. twitter_archive: some `expanded_urls` are duplicated (it might be because of retweets and replies)
-
-
-#### Validity Issues (incorrect entries, data types)
-
-6. twitter_archive: 23 records (prior start of cleaning) have ratings_denominator values other than 10
-7. twitter_archive: `expanded_urls` contains more than one url sometimes, example tweet id 853299958564483072
-
-
-#### Accuracy Issues
-
-8. twitter_archive: `name` starting with lower case are not valid dog names e.g. 'the, 'actually', 'this', 'one'
-
-
-#### Consistency
-
-9. twitter_api: 'id' column should be called 'tweet_id' to be consistent with twitter_archive table.
-
-</blockquote>
 </div>
 </div>
 </div>
@@ -14765,42 +14700,7 @@ Programmatic inspection was done using .<code>info(), nunqiue(), unique(), .dupl
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Tidiness-issues">Tidiness issues<a class="anchor-link" href="#Tidiness-issues">&#182;</a></h3><blockquote>
-
-#### Twitter archive table:
-
-1. `timestamp` should be type datetime
-
-2. `source` contain multiple pieces of information: url and source
-
-3. `text` contains multiple information: text, score and url
-
-4.  Columns exist with 90% missing data: `in_reply_to_status_id, in_reply_to_user_id, retweeted_status_id, retweeted_status_user_id, retweeted_status_timestamp`
-
-5. `doggo, floofer, pupper, puppo` should be converted into one column to reflect the dog stage
-
-#### `twitter_api` table:
-
-6. `retweet_count`, `like_count`, `media_url` and `annotation` columns should be merged with selected fields from twitter archive table to build a new master table avoiding duplicated columns
-
-#### Twitter predictions table:
-
-7.  The best dog breed should be selected and be part the new twitter master table
-8.  Breed name are badly formatted, it contains '_' instead of spaces and each word can be capitalized.
-
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><span style="color:blue; font-size:26px; line-height:40px; font-family: Calibri;">Wrangling Step 3: Cleaning</span></p>
 
 </div>
@@ -14811,8 +14711,7 @@ Programmatic inspection was done using .<code>info(), nunqiue(), unique(), .dupl
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>First, copies were made of each dataset, which was further used to perform the cleaning actions on.</p>
 <p>Cleaning was done following the framework <strong>Define -&gt; Code -&gt; Test</strong> for each issue found during assessing one-by-one</p>
 
@@ -14824,36 +14723,8 @@ Programmatic inspection was done using .<code>info(), nunqiue(), unique(), .dupl
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li><strong>Define</strong>: write pseudocode <strong>how</strong> the issue will be fixed, normally the define statement start with a verb</li>
-<li><strong>Code</strong>: implement the plan defined</li>
-<li>Immediately <strong>test</strong> the code after implementation to ensure the problem no longer exist. In most cases the <code>assert</code> statement was used for an automated testing approach. In some cases <code>.head()</code> or <code>.sample()</code> was used to manually inspect if the problem was solved</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Example:</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><img src="../images/cleanexample.png" alt="cleanexample" width="900" style="float:left"/></p>
 
 </div>
@@ -14864,8 +14735,7 @@ Programmatic inspection was done using .<code>info(), nunqiue(), unique(), .dupl
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>At the end of the cleaning step, we have a new master twitter archive dataset exported as <code>.csv</code> file, containing no duplicate columns, with the best data merged from all 3 datasets.
 Only original tweets with images were kept.</p>
 
@@ -14877,175 +14747,12 @@ Only original tweets with images were kept.</p>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="final-result:--twitter_archive_master.csv">final result:  twitter_archive_master.csv<a class="anchor-link" href="#final-result:--twitter_archive_master.csv">&#182;</a></h4><table>
-<thead><tr>
-<th style="text-align:left">Column</th>
-<th style="text-align:left">From table</th>
-<th style="text-align:left">Additional comments</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">tweet_id</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Only records were kept which could be inner joined with <code>twitter_prediction</code> table. It was a project requirement that tweet should contain an image which was present in the twitter_prediction table</td>
-</tr>
-<tr>
-<td style="text-align:left">timestamp</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Contain only date YYYYMMDD, time was dropped</td>
-</tr>
-<tr>
-<td style="text-align:left">source</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Only source text was extracted (e.g. Twitter for iPhone), URL part and other HTML characters was dropped</td>
-</tr>
-<tr>
-<td style="text-align:left">expanded_urls</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Full URL link to web page where photo is located. Note: this link does not contain link to actual image, it does not end with <code>.jpg</code>.</td>
-</tr>
-<tr>
-<td style="text-align:left">rating_numerator</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Normally above 10. Some outliers were detected above 250, however it was decided to leave those records, as it's the owner themselves giving this rating as thus a bias rating anyhow.</td>
-</tr>
-<tr>
-<td style="text-align:left">rating_denominator</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Now only contains value of 10, other records were dropped as errors were mostly due to extraction issues where text contained more than 1 score pattern e.g. <code>xx/xx</code></td>
-</tr>
-<tr>
-<td style="text-align:left">name</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">A lot of dog names are missing, 'None' was converted to <code>None</code></td>
-</tr>
-<tr>
-<td style="text-align:left">cleantext</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Text part was extracted, with score and url dropped. Note: When score is in middle of the text, texts after score are dropped in exceptation cases. </td>
-</tr>
-<tr>
-<td style="text-align:left">dog_stage</td>
-<td style="text-align:left">twitter_archive</td>
-<td style="text-align:left">Only 368 out of 2071 tweets have dog stages, after all the cleaning data quality is still not great. All dog stage columns were merged into 1 column and further enhanced to re-extract dog stages from text to enhance cases where dog stage was missing.</td>
-</tr>
-<tr>
-<td style="text-align:left">retweet_count</td>
-<td style="text-align:left">twitter_api</td>
-<td style="text-align:left">Amount of times an original tweet was retweeted, shows popularity </td>
-</tr>
-<tr>
-<td style="text-align:left">like_count</td>
-<td style="text-align:left">twitter_api</td>
-<td style="text-align:left">Amount of times an original tweet was liked, shows popularity </td>
-</tr>
-<tr>
-<td style="text-align:left">media_url</td>
-<td style="text-align:left">twitter_api</td>
-<td style="text-align:left">URL link to first profile picture containing <code>.jpg</code> which can be used to download imagines</td>
-</tr>
-<tr>
-<td style="text-align:left">short_url</td>
-<td style="text-align:left">twitter_api</td>
-<td style="text-align:left">Short URL link to tweet web page, it's the same url that was present in <code>twitter_archive-text</code> but now it's stored seperately</td>
-</tr>
-<tr>
-<td style="text-align:left">annotation</td>
-<td style="text-align:left">twitter_api</td>
-<td style="text-align:left">First annotion, contains in most cases a dog name, breed or place</td>
-</tr>
-<tr>
-<td style="text-align:left">breed</td>
-<td style="text-align:left">twitter_prediction</td>
-<td style="text-align:left">Breed with highest prediction score above 5% was selected, where the breed is an actual dog breed</td>
-</tr>
-<tr>
-<td style="text-align:left">jpg_url</td>
-<td style="text-align:left">twitter_prediction</td>
-<td style="text-align:left">URL link to image ending with <code>.jpg</code> giving the highest breed prediction store</td>
-</tr>
-</tbody>
-</table>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="../images/masterstructure.png" alt="datastructure" width="400" style="float:left"/></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># convert notebook to html</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">'jupyter nbconvert --to html wrangle_report.ipynb'</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
-[NbConvertApp] Converting notebook wrangle_report.ipynb to html
-[NbConvertApp] Writing 600351 bytes to wrangle_report.html
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 

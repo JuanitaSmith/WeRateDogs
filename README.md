@@ -36,7 +36,7 @@ Real-world data rarely comes clean, especially when it comes from the internet w
 
 During the data gathering step, twitter data needed to be downloaded **automaticaly** from the internet using a variety of sources and techniques, with the help of Python and its libraries.
 
-3 data gathering strategies was demonstrated:
+4 data gathering strategies was demonstrated:
 
 ### 1. Twitter archive - Automated downloaded from an URL
 
@@ -93,6 +93,9 @@ This file (image_predictions.tsv), is hosted on Udacity's servers and was downlo
 Image urls containing `.jpg` retrieved from API in step 2 was used to download the first dog image for each tweet from the internet, as additional practice. I had in mind for visualization to show a dog profile card of the most liked breeds and dogs.
 
 Images extracted in step 4, will not be published to github due to it's size
+
+### final result:  twitter_archive_master.csv
+
 
 ## Software Requirements
 - You need to be able to work in a Jupyter Notebook 
