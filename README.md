@@ -24,7 +24,7 @@ The dataset to be wrangled is the tweet archive of Twitter user @dog_rates, also
    
 Tasks completed for this project:
 
-- Step 1: Data Gathering
+- Step 1: Data Gathering - downloading data and images from the internet using various techniques
 - Step 2: Assessing data - focussing on the 'what' using both visual and programming inspection
 - Step 3: Cleaning - using the 'define->code->test' framework
 - Step 4: Storing Data - cleaned data is stored as csv file
@@ -36,7 +36,8 @@ Real-world data rarely comes clean, especially when it comes from the internet w
 
 During the data gathering step, twitter data needed to be downloaded **automaticaly** from the internet using a variety of sources and techniques, with the help of Python and its libraries.
 
-4 data gathering strategies was demonstrated:
+4q
+data gathering strategies was demonstrated:
 
 ### 1. Twitter archive - Automated downloaded from an URL
 
@@ -116,7 +117,7 @@ Images extracted in step 4, will not be published to github due to it's size
 
 To clone the repository: 'https://github.com/JuanitaSmith/WeRateDogs.git'
 
-To call tweepy API, credentials needs to be obtained from your own twitter account and stored in environment variables, example:
+To call tweepy API, credentials needs to be obtained from your own Twitter account and stored in environment variables, example:
 
 ```
 # import API credentials from environment variables
